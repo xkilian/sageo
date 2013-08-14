@@ -1,13 +1,15 @@
 sageo
 =====
 
-A rewriting of check_mk multisite web interface with the Flask web framework
+A monitoring web interface using the Flask framework based on check_mk Multisite
+
 The technologies used are:
 - Twitter Bootstrap for CSS styles
 - Python Flask web framework
 - Babel for translations
 - MK Livestatus
 
+Sageo provides a solid core on which to build a complete web monitoring interface for Nagios and Nagios derived monitoring systems. It uses the standard Livestatus protocol for fast and efficient data retrieval. It is built using an MVC software architecture which separates the representation of information from the user's interaction with it. The interface is developer friendly.
 
 Installation
 ------------
